@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity7">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/more" />
+
+
+    <TextView
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="60dp"
+        android:layout_width="250dp"
+        android:text="PHONE"
+        android:textSize="15sp"
+
+        android:textColor="@color/pink"
+        android:layout_height="42dp"/>
+
+    <TextView
+        android:layout_marginTop="330dp"
+        android:paddingLeft="60dp"
+        android:textColor="@color/pink"
+        android:textSize="15sp"
+        android:layout_width="250dp"
+        android:text="9322974643"
+        android:layout_height="42dp"/>
+    <TextView
+        android:layout_marginTop="370dp"
+        android:paddingLeft="60dp"
+        android:textColor="@color/pink"
+        android:textSize="15sp"
+        android:layout_width="250dp"
+        android:text="EMAIL"
+        android:layout_height="42dp"/>
+    <TextView
+        android:layout_marginTop="400dp"
+        android:paddingLeft="60dp"
+        android:textColor="@color/pink"
+        android:textSize="10sp"
+        android:layout_width="300dp"
+        android:text="moremk2019@gmail.com"
+        android:layout_height="42dp"/>
+
+    <TextView
+        android:layout_marginTop="440dp"
+        android:paddingLeft="60dp"
+        android:textColor="@color/pink"
+        android:textSize="15sp"
+        android:layout_width="250dp"
+        android:text="WEBSITE"
+        android:layout_height="42dp"/>
+    <TextView
+        android:layout_marginTop="470dp"
+        android:paddingLeft="60dp"
+        android:textColor="@color/pink"
+        android:textSize="10sp"
+        android:layout_width="350dp"
+        android:text="moremk.github.io/Mahesh-More/"
+        android:layout_height="42dp"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink"
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+
+        android:adjustViewBounds="true"
+        android:background="@drawable/shop"/>
+
+
+
+    <EditText
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="60dp"
+        android:background="@drawable/rounded_corner"
+        android:layout_width="250dp"
+        android:id="@+id/ed1"
+        android:hint="Username"
+        android:textColorHint="@color/white"
+        android:textSize="10sp"
+        android:padding="15dp"
+        android:textColor="@color/white"
+        android:inputType="text"
+        android:layout_height="42dp"/>
+
+    <EditText
+        android:layout_marginTop="430dp"
+        android:layout_marginLeft="60dp"
+        android:background="@drawable/rounded_corner"
+        android:layout_width="250dp"
+        android:id="@+id/ed2"
+        android:hint="Password"
+        android:textColorHint="@color/white"
+        android:textSize="10sp"
+        android:padding="15dp"
+        android:textColor="@color/white"
+        android:inputType="number|textPassword"
+        android:layout_height="42dp"/>
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_marginTop="490dp"
+        android:layout_marginLeft="60dp"
+        android:textSize="15sp"
+        android:textColor="@color/pink"
+        android:backgroundTint="@color/white"
+        android:text="Log in"
+        android:layout_width="250dp"
+        android:layout_height="50dp"/>
+
+    <TextView
+
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="80dp"
+        android:text="don't have an account !"
+        android:textSize="13sp"
+        android:textStyle="italic"
+        android:textColor="@color/white"
+        android:layout_width="250dp"
+        android:layout_height="70dp"/>
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_marginTop="549dp"
+        android:layout_marginLeft="232dp"
+        android:text="SignIn"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@color/blue"
+        android:layout_width="250dp"
+        android:layout_height="70dp"/>
+</RelativeLayout>

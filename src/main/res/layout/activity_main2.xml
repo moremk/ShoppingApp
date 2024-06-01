@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink"
+    tools:context=".MainActivity2">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/mahi"/>
+
+    <TextView
+        android:layout_marginTop="330dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="100dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:text="Registar"
+        />
+
+    <EditText
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/rounded_corner"
+        android:layout_width="280dp"
+        android:id="@+id/ed1"
+        android:hint="Name"
+        android:textColorHint="@color/white"
+        android:textSize="10sp"
+        android:padding="15dp"
+        android:textColor="@color/white"
+        android:inputType="text"
+        android:layout_height="42dp"/>
+
+    <EditText
+        android:layout_marginTop="430dp"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/rounded_corner"
+        android:layout_width="280dp"
+        android:id="@+id/ed2"
+        android:hint="Email"
+        android:textColorHint="@color/white"
+        android:textSize="10sp"
+        android:padding="15dp"
+        android:textColor="@color/white"
+        android:inputType="textEmailAddress"
+        android:layout_height="42dp"/>
+    <EditText
+        android:layout_marginTop="480dp"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/rounded_corner"
+        android:layout_width="280dp"
+        android:id="@+id/ed3"
+        android:hint="Password"
+        android:textColorHint="@color/white"
+        android:textSize="10sp"
+        android:padding="15dp"
+        android:textColor="@color/white"
+        android:inputType="numberPassword"
+        android:layout_height="42dp"/>
+
+    <EditText
+        android:layout_marginTop="530dp"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/rounded_corner"
+        android:layout_width="280dp"
+        android:id="@+id/ed4"
+        android:hint="Mobile"
+        android:textColorHint="@color/white"
+        android:textSize="10sp"
+        android:padding="15dp"
+        android:textColor="@color/white"
+        android:inputType="number"
+        android:layout_height="42dp"/>
+    <Button
+        android:id="@+id/b1"
+        android:layout_marginTop="585dp"
+        android:layout_marginLeft="55dp"
+        android:textSize="15sp"
+        android:textColor="@color/pink"
+        android:backgroundTint="@color/white"
+        android:text="Sign in"
+        android:layout_width="150dp"
+        android:layout_height="50dp"/>
+
+
+
+
+</RelativeLayout>

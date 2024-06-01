@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink"
+    tools:context=".MainActivity4">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+
+        android:adjustViewBounds="true"
+        android:background="@drawable/u"/>
+
+    <EditText
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="60dp"
+        android:background="@drawable/rounded_corner"
+        android:layout_width="250dp"
+        android:id="@+id/ed1"
+        android:hint="name"
+        android:textColorHint="@color/white"
+        android:textSize="10sp"
+        android:padding="15dp"
+        android:textColor="@color/white"
+        android:inputType="text"
+        android:layout_height="42dp"/>
+
+    <EditText
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="60dp"
+        android:background="@drawable/rounded_corner"
+        android:layout_width="250dp"
+        android:id="@+id/ed3"
+        android:hint="mobile"
+        android:textColorHint="@color/white"
+        android:textSize="10sp"
+        android:padding="15dp"
+        android:textColor="@color/white"
+        android:layout_height="42dp"/>
+    <EditText
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="60dp"
+        android:background="@drawable/rounded_corner"
+        android:layout_width="250dp"
+        android:id="@+id/ed4"
+        android:hint="adress"
+        android:textColorHint="@color/white"
+        android:textSize="10sp"
+        android:padding="15dp"
+        android:textColor="@color/white"
+        android:layout_height="42dp"/>
+    <EditText
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="60dp"
+        android:background="@drawable/rounded_corner"
+        android:layout_width="250dp"
+        android:id="@+id/ed2"
+        android:hint="amount"
+        android:textColorHint="@color/white"
+        android:textSize="10sp"
+        android:padding="15dp"
+        android:textColor="@color/white"
+        android:layout_height="42dp"/>
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="70dp"
+        android:textSize="13sp"
+        android:textColor="@color/pink"
+        android:backgroundTint="@color/white"
+        android:text="Pay"
+        android:layout_width="130dp"
+        android:layout_height="50dp"/>
+
+</RelativeLayout>
